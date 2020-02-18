@@ -1,0 +1,1 @@
+estamos en pru.blade.php
