@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/pagina1','PruebaController@CrudPrueba');
 
 Route::post('/pagina1','PruebaController@Guardar')->name('guardar.persona');
+
+/*Escalafon ************************/
+Route::get('/tradatos','EscalafonController@VerTrabajador');
+
+
+/*fin Escalafon ********************/
